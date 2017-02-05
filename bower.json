@@ -1,0 +1,26 @@
+{
+  "name": "hass-rta-panel",
+  "homepage": "https://github.com/project-stark/hass-rta-panel",
+  "authors": [
+    "Dixita Ganatra <dixita0607@gmail.com>"
+  ],
+  "description": "Home-assistant real time analytics panel",
+  "main": "rta.html",
+  "keywords": [
+    "remote",
+    "analytics",
+    "home-assistant"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "granite-c3": "^1.1.1"
+  }
+}
