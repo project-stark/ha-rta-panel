@@ -1,0 +1,27 @@
+<dom-module id='ha-panel-rta'>
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h1>Real time analytics</h1>
+  </template>
+  <script>
+    Polymer({
+      is: 'ha-panel-rta',
+      properties: {
+        hass: {
+          type: Object,
+        },
+        showMenu: {
+          type: Boolean,
+          value: true,
+        },
+        panel: {
+          type: Object,
+        }
+      }
+    });
+  </script>
+</dom-module>
