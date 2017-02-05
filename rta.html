@@ -29,7 +29,18 @@
         },
         panel: {
           type: Object
+        },
+        chart: {
+          type: Object
         }
+      },
+      ready: function () {
+        this.scopeSubtree(this.$.chart, true);
+      },
+      attached: function () {
+        this.chart = c3.generate({
+          bindto: this.$.chart
+        });
       }
     });
   </script>
